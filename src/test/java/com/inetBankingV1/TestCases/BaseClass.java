@@ -2,6 +2,7 @@ package com.inetBankingV1.TestCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -12,6 +13,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -36,7 +38,9 @@ public class BaseClass {
 		if(br.equals("chrome"))
 		{
 		System.setProperty("webdriver.chrome.driver", redconfig.getChromePath());
-		driver = new ChromeDriver();
+		ChromeOptions opt = new ChromeOptions();
+		opt.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking", "enable-automation"));
+		driver = new ChromeDriver(opt);
 		driver.manage().window().maximize();
 		}
 		else if(br.equals("edge"))

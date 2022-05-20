@@ -171,3 +171,28 @@
 2022-05-17 18:30:53,297 - eBanking -INFO - User name is provided
 2022-05-17 18:30:53,358 - eBanking -INFO - Passsword is provided
 2022-05-17 18:31:03,371 - eBanking -INFO - providing customer details....
+2022-05-18 21:37:34,002 - eBanking -INFO - URL is opend
+2022-05-18 21:37:34,023 - eBanking -INFO - Username entered
+2022-05-18 21:37:34,126 - eBanking -INFO - Password entered
+2022-05-18 21:37:35,625 - eBanking -INFO - Test Case 001 is passed
+2022-05-20 20:24:49,129 - eBanking -INFO - URL is opend
+2022-05-20 20:24:49,179 - eBanking -INFO - Username entered
+2022-05-20 20:24:49,287 - eBanking -INFO - Password entered
+2022-05-20 20:24:50,987 - eBanking -INFO - Test Case 001 is passed
+2022-05-20 20:25:04,225 - eBanking -INFO - Username Provided
+2022-05-20 20:25:04,286 - eBanking -INFO - Password Provided
+2022-05-20 20:25:08,857 - eBanking -INFO - Login passed
+2022-05-20 20:25:08,859 - eBanking -INFO - Test case 002 is passed...
+2022-05-20 20:25:14,503 - eBanking -INFO - Username Provided
+2022-05-20 20:25:14,587 - eBanking -INFO - Password Provided
+2022-05-20 20:25:20,257 - eBanking -INFO - Username Provided
+2022-05-20 20:25:20,333 - eBanking -INFO - Password Provided
+2022-05-20 20:25:25,413 - eBanking -INFO - Username Provided
+2022-05-20 20:25:25,498 - eBanking -INFO - Password Provided
+2022-05-20 20:25:31,023 - eBanking -INFO - Username Provided
+2022-05-20 20:25:31,193 - eBanking -INFO - Password Provided
+2022-05-20 20:25:35,676 - eBanking -INFO - Login passed
+2022-05-20 20:25:35,676 - eBanking -INFO - Test case 002 is passed...
+2022-05-20 20:25:53,291 - eBanking -INFO - User name is provided
+2022-05-20 20:25:53,358 - eBanking -INFO - Passsword is provided
+2022-05-20 20:25:58,012 - eBanking -INFO - providing customer details....
