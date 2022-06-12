@@ -31,14 +31,15 @@ public class Reporting extends TestListenerAdapter{
 		
 		extent=new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		extent.setSystemInfo("Host name","localhost");
+		extent.setSystemInfo("Host name","AMIT123");
 		extent.setSystemInfo("Environemnt","QA");
-		extent.setSystemInfo("user","Amit");
+		extent.setSystemInfo("User","Amit Bachal");
 		
 		htmlReporter.config().setDocumentTitle("InetBanking Test Project"); // Tile of report
 		htmlReporter.config().setReportName("Automation Test Report"); // name of the report
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
 		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setTimeStampFormat(timeStamp);
 	}
 	
 	public void onTestSuccess(ITestResult tr)

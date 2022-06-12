@@ -43,7 +43,7 @@ public class TC_AddCustomerTest_003 extends BaseClass{
 		addcust.custemailid(email);
 		
 		addcust.custsubmit();
-		addcust.custpassword("abcdef");
+	//	addcust.custpassword("abcdef");
 		Thread.sleep(3000);
 		
 		logger.info("validation started....");

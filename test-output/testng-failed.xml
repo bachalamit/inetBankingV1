@@ -9,7 +9,7 @@
     <classes>
       <class name="com.inetBankingV1.TestCases.TC_loginDDT_002">
         <methods>
-          <include name="loginDDT" invocation-numbers="1 2 3"/>
+          <include name="loginDDT" invocation-numbers="0 2 3 4"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
