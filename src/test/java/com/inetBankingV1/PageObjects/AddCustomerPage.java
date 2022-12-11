@@ -10,13 +10,13 @@ import org.openqa.selenium.support.PageFactory;
 public class AddCustomerPage {
 	WebDriver ldriver;
 	
-	public AddCustomerPage(WebDriver rdriver)
+	public AddCustomerPage(WebDriver ldriver)
 	{
-		ldriver = rdriver;
-		PageFactory.initElements(rdriver, this);
+	//	ldriver = rdriver;
+		PageFactory.initElements(ldriver, this);
 				
 	}
-	@FindBy(how = How.XPATH, using ="/html/body/div[3]/div/ul/li[2]/a")
+	@FindBy(how = How.XPATH, using ="//a[normalize-space()='New Customer']")
 	@CacheLookup
 	WebElement lnkAddNewCustomer;
 	@FindBy(how = How.NAME, using ="name")

@@ -11,10 +11,10 @@ public class LoginPage {
 
 	WebDriver ldriver;
 
-	public LoginPage(WebDriver rdriver)
+	public LoginPage(WebDriver ldriver)
 	{
-		ldriver = rdriver;
-		PageFactory.initElements(rdriver, this);
+	//	ldriver = rdriver;
+		PageFactory.initElements(ldriver, this);
 	}
 	@FindBy(name = "uid")
 	@CacheLookup

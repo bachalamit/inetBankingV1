@@ -9,11 +9,18 @@
     <classes>
       <class name="com.inetBankingV1.TestCases.TC_loginDDT_002">
         <methods>
-          <include name="loginDDT" invocation-numbers="0 2 3 4"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.inetBankingV1.TestCases.TC_loginDDT_002 -->
+      <class name="com.inetBankingV1.TestCases.TC_loginTest_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.inetBankingV1.TestCases.TC_loginTest_001 -->
       <class name="com.inetBankingV1.TestCases.TC_AddCustomerTest_003">
         <methods>
           <include name="tearDown"/>
